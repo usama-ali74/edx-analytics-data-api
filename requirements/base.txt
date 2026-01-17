@@ -119,11 +119,11 @@ edx-rest-api-client==5.5.0
     # via
     #   -r requirements/base.in
     #   edx-enterprise-data
-elasticsearch==7.13.4
+elasticsearch==6.8.2
     # via
     #   -c requirements/constraints.txt
     #   elasticsearch-dsl
-elasticsearch-dsl==7.4.0
+elasticsearch-dsl==6.4.0
     # via
     #   -c requirements/constraints.txt
     #   -r requirements/base.in
