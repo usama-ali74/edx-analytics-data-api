@@ -63,7 +63,6 @@ class RosterEntry(Document):
 
     class Index:
         name = settings.ELASTICSEARCH_LEARNERS_INDEX_ALIAS
-        aliases = {settings.ELASTICSEARCH_LEARNERS_INDEX_ALIAS: {}}
         settings = settings.ELASTICSEARCH_INDEX_SETTINGS
 
     @classmethod
